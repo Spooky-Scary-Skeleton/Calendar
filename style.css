@@ -1,0 +1,56 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.day-date-box {
+  font-family: Varela Round,sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.day {
+  margin-bottom: 20px;
+}
+
+.date {
+  margin-bottom: 50px;
+}
+
+.month-year-box {
+  font-family: Varela Round,sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.today-date {
+  color:red;
+}
+table {
+  text-align: center;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar button {
+  font-size: large;
+  font-weight: bolder;
+  height: 30px;
+  width:100px;
+  background-color: transparent;
+  border: none;
+}
